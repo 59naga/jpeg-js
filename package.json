@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node_modules/.bin/tape test/*.js"
   },
+  "browserify": {
+    "transform": "varify"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/eugeneware/jpeg-js"
